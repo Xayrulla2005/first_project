@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Masala Yechuvchi</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JS Masala Yechuvchi</h1>
+
+    <label for="problemType">Masala turini tanlang:</label>
+    <select id="problemType">
+      <option value="palindrome">Eng uzun palindrom</option>
+      <option value="cutAndAttach">Kesib oxiriga ulash</option>
+      <option value="sumCheck">Yig'indiga teng kombinatsiya</option>
+      <option value="arrayDiff">Arraylar orasidagi farq</option>
+    </select>
+
+    <label for="inputArgs">Argumentlarni kiriting (masalan: [1,2,3], 2):</label>
+    <input type="text" id="inputArgs" placeholder="Argumentlarni kiriting" />
+
+    <button onclick="solveProblem()">Yechimini ko‘rish</button>
+
+    <div class="result">
+      <h3>Natija:</h3>
+      <pre id="output"></pre>
+    </div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
+
+
+
